@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.recordBackground {
+    background-image: url(../prime-pw-week-5-assignment/assignment/record.png);
+    background-repeat: repeat;
+}
+
+.contrast {
+    background-color: rgb(78, 17, 17);
+    color: rgb(107, 212, 212);
+    text-align: center;
+}
+
+.gray {
+    background-color: rgb(150, 148, 146);
+    padding: 1em;
+}
