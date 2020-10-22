@@ -50,7 +50,7 @@ function search(searchQuery, collection) {
 
 
 
-// ignore this next line for a second, I'll explain it in a bit
+// ignore this next line for a second, along with other strange words in all-caps. They are tags for organization. I'll explain it in a bit
 // TOASTER TOASTER
 console.log('*********-------BEGIN TEST OF SEARCH FUNCTION-------*********');
 
@@ -59,16 +59,20 @@ console.log('*********-------BEGIN TEST OF SEARCH FUNCTION-------*********');
 // I know exactly what it will look like because they told us in the notes, so I justt change it to fit the collection I made earlier
 // FISH SALAD
 console.log('Testing search: ', search({ artist: 'The Wiggles', year: 1994 }));
+
+console.log('*********-------SECOND TEST OF SEARCH FUNCTION-------*********');
+
 // I also know it might look different based on user input, so modify it to check multiple possibilities 
 // FISH SALAD
 console.log('Testing search: ', search({ albumTitle: 'Bananaphone', year: 1994 }));
 
 // now I have multiple searches that will show results in the console. This can get confusing if there is nothing to separeate them,
-// so put console logs on either side of the code we are runing. In this case, it is just the two consol.logs above on lines 59 AND 61 where it says FISH SALAD.
-// that's what the console log on line 53 above, where it says TOASTER TOASTER
+// so put console logs on either side of the code we are runing. In this case, it is just the two consol.logs above where it says FISH SALAD.
+// that's what the console log above, where it says TOASTER TOASTER, and this next one
+// this does two things. It's big and easy to find, and it splits up the functions in the console so you know exactly what you are looking at
+// they are al
 
 console.log('*********-------END TEST OF SEARCH FUNCTION-------*********');
-
 
 
 
